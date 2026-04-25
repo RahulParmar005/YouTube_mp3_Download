@@ -1,8 +1,11 @@
 import express from "express";
 import cors from "cors";
 import ytdlp from "yt-dlp-exec";
+import dotenv from "dotenv";
 
-const port = 3000;
+dotenv.config();
+
+const port = process.env.PORT;
 const app = express();
 
 app.use(cors());
