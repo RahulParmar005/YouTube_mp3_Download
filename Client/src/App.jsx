@@ -26,7 +26,7 @@ function App() {
 
     return (
         <div className='main bg-blue-100 h-screen flex flex-col items-center'>
-            <h1 className='heading text-4xl bg-blue-500 border-2 mt-4 rounded-3xl p-4'>Download mp3 audio from any Youtube or Insta video</h1>
+            <h1 className='heading text-4xl bg-blue-500 border-2 mt-4 rounded-3xl p-4'>Download trending viral mp3 audio from any Insta video</h1>
             <div className='input-container flex flex-col items-center justify-center gap-8 mt-20 w-[70vw]'>
                 <input
                     className='h-14 border-2 border-blue-500 hover:border-blue-700 hover:shadow-blue-800 focus:outline-none focus:border-blue-700 transition duration-300 w-[85vw] text-center text-lg rounded-3xl'
